@@ -1,0 +1,53 @@
+{
+  "styleVersion": "cp01-comic-forest-v1",
+  "assets": [
+    {
+      "assetId": "cp01-expo-v1",
+      "kind": "chapter-scene",
+      "path": "/rpg-assets/cp01-expo.png",
+      "sha256": "9573c0ff7740b8985972ab0649cdcad114fc2ff589cbd1adb354cc5a1839f44f",
+      "dimensions": { "width": 1672, "height": 941 },
+      "mime": "image/png",
+      "characterIds": ["maya", "player"],
+      "characterVersion": "cp01-v1",
+      "sceneCue": "dusk-booth",
+      "cropFocus": "center",
+      "altKey": "cp01.expo.alt",
+      "generationPromptVersion": "prompt-2026-10-18-v1",
+      "referenceAssetIds": [],
+      "approved": true
+    },
+    {
+      "assetId": "cp01-negotiation-v1",
+      "kind": "chapter-scene",
+      "path": "/rpg-assets/cp01-negotiation.png",
+      "sha256": "10c31d9f3d5d8431844ddab3a12a065a665e2f8e813a5adedbc3e7f4923aafd6",
+      "dimensions": { "width": 1672, "height": 941 },
+      "mime": "image/png",
+      "characterIds": ["maya", "player"],
+      "characterVersion": "cp01-v1",
+      "sceneCue": "buyer-counteroffer",
+      "cropFocus": "center",
+      "altKey": "cp01.negotiation.alt",
+      "generationPromptVersion": "prompt-2026-10-18-v1",
+      "referenceAssetIds": ["cp01-expo-v1"],
+      "approved": true
+    },
+    {
+      "assetId": "cp01-shipment-v1",
+      "kind": "chapter-scene",
+      "path": "/rpg-assets/cp01-shipment.png",
+      "sha256": "ec97caa373f759c26ddeb9a3946013c10f94019ba9fc07e0067e35b9a967676e",
+      "dimensions": { "width": 1672, "height": 941 },
+      "mime": "image/png",
+      "characterIds": ["maya", "player", "factory-supervisor"],
+      "characterVersion": "cp01-v1",
+      "sceneCue": "shipment-accepted",
+      "cropFocus": "center",
+      "altKey": "cp01.shipment.alt",
+      "generationPromptVersion": "prompt-2026-10-18-v1",
+      "referenceAssetIds": ["cp01-expo-v1", "cp01-negotiation-v1"],
+      "approved": true
+    }
+  ]
+}
